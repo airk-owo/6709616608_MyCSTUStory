@@ -13,6 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0%;
 }
 
 p {
@@ -24,14 +25,15 @@ p {
 
 h1 {
     text-align: center;
-    color: rgb(52, 64, 94);
+    color: rgb(255, 255, 255);
+    font-weight: 100;
     margin: 0%;
 }
 
 h2 {
     text-align: center;
     font-weight: 800;
-    color: rgb(255, 255, 255);
+    color: rgb(201, 30, 30);
     margin: 0%;
     padding-bottom: 10px;
 }
@@ -45,7 +47,7 @@ h3 {
 }
 
 h4 {
-    color: #cf2121;
+    color: #ff924a;
     margin: 0%;
     font-family: "Barlow Condensed", sans-serif;
 }
@@ -56,13 +58,6 @@ table {
     text-align: center;
 }
 
-iframe {
-    max-width: 720px;
-    width: 100%;
-    padding: 5px;
-    border: 5px, dashed, #98d2f3;
-}
-
 div, section {
     padding: 10px;
     margin:auto;
@@ -70,23 +65,13 @@ div, section {
 }
 
 main {
+    margin-top: 20px;
     margin-bottom: 15px;
-}
-
-footer {
-    width: 90%;
-    background-color: rgba(40, 53, 35, 0.733);
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-bottom: 15px;
-    padding: 10px;
 }
 
 header {
     padding: 30px 0px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(6, 24, 80, 0.747);
     font-family: "Rubik Bubbles", system-ui;
     font-size: xx-large;
 }
@@ -98,6 +83,7 @@ header {
 }
 
 .about-me-section {
+    border: dashed 3px rgb(188, 154, 216);
     background-color:rgba(159, 201, 241, 0.685);
     margin: 10px;
     flex: 1;
@@ -117,15 +103,40 @@ header {
     padding: 0%;
 }
 
+#activityPicture {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* video */
+
 .video-container {
     text-align: center;
     padding: 1%;
     background-color: rgba(255, 255, 255, 0);
 }
 
-#activityPicture {
+iframe {
+    max-width: 720px;
     width: 100%;
-    max-width: 500px;
+    border: 5px, outset, #658ba1;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: rgba(40, 53, 35, 0.733);
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px 0px;
+    border-top: solid 2px rgb(72, 71, 90);
+}
+
+footer h2 {
+    color: white;
 }
 
 .icon {
@@ -147,7 +158,6 @@ nav ul {
     padding: 0;
     overflow: hidden;
     background-color: #7092e0;
-    
 }
 
 nav li {
@@ -168,4 +178,41 @@ nav li a:hover:not(.active) {
 
 .active {
     background-color: #b61414;
+}
+
+/* my journey page */
+
+#four-year-journey {
+    text-align: center;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 90%;
+    max-width: 700px;
+    background-color: rgba(113, 145, 172, 0.164);
+    padding: 25px 0px;
+}
+
+#journey-picture {
+    width: 90%;
+    max-width: 700px;
+}
+
+#journey-goals {
+    width: 90%;
+}
+
+table {
+    border: dashed 5px rgb(201, 93, 93);
+    padding: 10px 50px;
+    margin-top: 20px;
+    text-align: left;
+    color: #28395f;
+    background-color: rgba(231, 246, 255, 0.918);
+    width: 90%;
+    max-width: 700px;
+}
+
+td {
+    padding: 0px 10px;
 }
