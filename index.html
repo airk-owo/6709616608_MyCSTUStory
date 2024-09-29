@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html lang="th">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <title>AIRK CSTU STORY</title>
         <link rel="stylesheet" href="mystyle.css">
     </head>
 
     <body>
-        <div id="header">
-            <header>
-                <H1>MY CSTU STORY</H1>
-                <center>
-                    <h4>Wrote by Airk</h4>
-                </center>
-                
-            </header>
-        </div>
+        <header>
+            <H1>MY CSTU STORY</H1>
+            <center>
+                <h4>Wrote by Airk</h4>
+            </center>
+        </header>
         
-        <div id="body">
-            <div id="videocon">
-                <video src="resources/MyVideo.mp4" controls>
-                </video>
-            </div>
+        <main>
+            <section class="video-container">
+                <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/FkDbe5jxORc?si=7vpRjaU-YBxJ1AIE" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+            </section>
             
-            <div class="container">
-                <div class="smallContainer">
+            <section id="my-info-section">
+                <section class="about-me-section">
                     <h3>ABOUT ME</h3>
 
-                    <div id="picContainer">
+                    <div class="pic-container">
                         <img id="mypic" src="resources/mypicture.jpg" alt="Pakitta picture">
                     </div>
-                    <div id="textContainer">
+                    <div class="text-container">
                         <p> My name is Pakitta. 
                             <br> My nickname is Acare.
                             <br> I'm 18 years old.
                             <br> I’m a student at the Faculty of Science and Technology <i>Bachelor of Science Program in Computer Science</i>, Thammasat University.
                         </p>
                     </div>
-                </div>
-                <div class="smallContainer">
+                </section>
+
+                <section class="about-me-section">
                     <h3>MY ACTIVITIES</h3>
 
-                    <div id="picContainer">
+                    <div class="pic-container">
                         <a href="https://drive.google.com/file/d/1wSfoBTz9Rqs7TOBsAsDUk9dagJikqW_n/view?usp=drive_link">
                             <img id="activityPicture" src="resources/relifeNightmare.png" alt="Re:life Nightmare Game Preview">
                         </a>
@@ -49,9 +53,9 @@
                             <img id="activityPicture" src="resources/worldHardest.PNG" alt="World Hardest Game">
                         </a>
                     </div>
-                </div>
-            </div>
-        </div>
+                </section>
+            </section>
+        </main>
 
         <footer>
             <h2>CONTACT</h2>
