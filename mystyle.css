@@ -70,7 +70,6 @@ div, section {
 }
 
 main {
-    background-color: rgba(255, 255, 255, 0.308);
     margin-bottom: 15px;
 }
 
@@ -86,15 +85,16 @@ footer {
 }
 
 header {
+    padding: 30px 0px;
     background-color: rgba(255, 255, 255, 0);
     font-family: "Rubik Bubbles", system-ui;
     font-size: xx-large;
 }
 
 #my-info-section {
-    background-color:rgba(180, 133, 46, 0);
+    background-color: rgba(255, 255, 255, 0.308);
     display: flex;
-    width: 85%;
+    width: 90%;
 }
 
 .about-me-section {
@@ -131,4 +131,41 @@ header {
 .icon {
     width: 40px;
     height: 40px;
+}
+
+/* navigation bar */
+
+nav {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7092e0;
+    
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #6180c7c2;
+}
+
+.active {
+    background-color: #b61414;
 }
