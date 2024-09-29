@@ -216,3 +216,18 @@ table {
 td {
     padding: 0px 10px;
 }
+
+/* my future page */
+
+#my-future-plan {
+    background-color:rgba(159, 201, 241, 0.685);
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+#my-special-goal {
+    background-color:rgba(156, 219, 238, 0.685);
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+}
